@@ -1,0 +1,8 @@
+@import url("_variables.css");
+
+.catalog-block__item {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}

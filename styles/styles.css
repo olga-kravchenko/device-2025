@@ -1,0 +1,75 @@
+@import url("_fonts.css");
+@import url("_variables.css");
+@import url("header.css");
+@import url("banners-block.css");
+@import url("catalog-block.css");
+@import url("services-block.css");
+@import url("info-block.css");
+@import url("action-block.css");
+
+@import url("catalog-header.css");
+@import url("footer.css");
+
+body {
+    font-family: "Raleway", "Arial", sans-serif;
+    font-weight: 400;
+    color: var(--black);
+}
+
+button {
+    all: unset;
+}
+
+a {
+    all: unset;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    all: unset;
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    all: unset;
+    display: block;
+}
+
+option {
+    all: unset;
+    display: block;
+    background: none;
+    border: none;
+    font: inherit;
+    color: inherit;
+    padding: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.button {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

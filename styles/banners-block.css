@@ -1,0 +1,33 @@
+@import url("_variables.css");
+
+.banner__number {
+    font-family: "Rubik", "Arial", sans-serif;
+    font-size: 180px;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--white);
+    background-color: var(--yellow);
+}
+
+.banner__title {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.banner__description {
+    font-size: 18px;
+    line-height: 1.3;
+    color: var(--dark);
+}
+
+.banner__info-table-value {
+    font-size: 36px;
+    line-height: 1.3;
+}
+
+.banner__info-table-description {
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--dark);
+}

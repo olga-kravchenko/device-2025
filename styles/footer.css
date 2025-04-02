@@ -1,0 +1,19 @@
+@import url("_variables.css");
+
+.footer {
+    color: var(--white);
+    background-color: var(--dark);
+}
+
+.footer__address,
+.footer__number{
+    font-size: 16px;
+    line-height: 1.2;
+    font-style: normal;
+}
+
+.footer__navigation-link {
+    font-size: 18px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}

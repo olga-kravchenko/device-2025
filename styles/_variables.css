@@ -1,0 +1,16 @@
+:root {
+    --black: #000000;
+    --dark: #444444;
+    --gray: #dcdcdc;
+    --light-gray: #ebebeb;
+    --light: #f0f0f0;
+    --white: #ffffff;
+
+    --yellow: #ffe17f;
+    --yellow-hover: #ffc700;
+    --focus: #af4fff;
+
+    --error: #ff3d3d;
+    --warning: #ff3d3d;
+    --success: #08af00;
+}

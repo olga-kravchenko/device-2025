@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Raleway"),
+        /* Если не получилось, загрузит woff2 */
+    url("/fonts/Raleway-Regular.woff2") format("woff2"),
+        /* Если браузер не поддерживает woff2, загрузит woff */
+    url("/fonts/Raleway-Regular.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Raleway"),
+        /* Если не получилось, загрузит woff2 */
+    url("/fonts/Raleway-Bold.woff2") format("woff2"),
+        /* Если браузер не поддерживает woff2, загрузит woff */
+    url("/fonts/Raleway-Bold.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Raleway"),
+        /* Если не получилось, загрузит woff2 */
+    url("/fonts/Raleway-ExtraBold.woff2") format("woff2"),
+        /* Если браузер не поддерживает woff2, загрузит woff */
+    url("/fonts/Raleway-ExtraBold.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Rubik"),
+        /* Если не получилось, загрузит woff2 */
+    url("/fonts/Rubikbold.woff2") format("woff2"),
+        /* Если браузер не поддерживает woff2, загрузит woff */
+    url("/fonts/Rubikbold.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Rubik"),
+        /* Если не получилось, загрузит woff2 */
+    url("/fonts/Rubik.woff2") format("woff2"),
+        /* Если браузер не поддерживает woff2, загрузит woff */
+    url("/fonts/Rubik.woff") format("woff");
+    font-display: swap;
+}

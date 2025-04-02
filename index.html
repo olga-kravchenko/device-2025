@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Device-2025</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 <header class="header">
@@ -10,7 +11,7 @@
     <img class="logo__image" src="images/logo--header.svg" width="145" height="36" alt="Логотип интернет-магазина Device">
   </a>
   <div class="header__search search-block">
-    <input class="search-block__input" type="search">
+    <input class="search-block__input" type="search" placeholder="Поиск по сайту">
     <button class="search-block__button" type="submit">Найти</button>
   </div>
   <ul class="header__user-info">
@@ -21,14 +22,11 @@
       <button class="user-info__button" type="button">Сравнить</button>
     </li>
     <li>
-      <div class="user-info__icon" >
-        <span class="user-info__counter" >0</span>
-      </div>
       <button class="user-info__button" type="button">Корзина</button>
     </li>
   </ul>
   <section class="header__catalog catalog">
-    <h2>Каталог товаров</h2>
+    <h2 class="catalog__title button">Каталог товаров</h2>
     <button class="catalog__button" type="button">+</button>
     <ul class="catalog__list">
       <li>
@@ -53,9 +51,9 @@
   </section>
   <nav class="header__page-navigation page-navigation">
     <ul class="page-navigation__list">
-      <li><a href="#" class="page-navigation__link">Доставка</a></li>
-      <li><a href="#" class="page-navigation__link">Гарантия</a></li>
-      <li><a href="#" class="page-navigation__link">Контакты</a></li>
+      <li><a href="#" class="page-navigation__link button">Доставка</a></li>
+      <li><a href="#" class="page-navigation__link button">Гарантия</a></li>
+      <li><a href="#" class="page-navigation__link button">Контакты</a></li>
     </ul>
   </nav>
 </header>
@@ -81,15 +79,15 @@
           квадрокоптер оснащен мощным лазером,
           замаскированным под стандартную камеру.
         </p>
-        <a class="banner__link" href="#">Подробнее</a>
+        <a class="banner__link button" href="#">Подробнее</a>
         <table class="banner__info-table">
           <tr>
-            <td>800 м</td>
-            <td>50 м</td>
+            <td class="banner__info-table-value">800 м</td>
+            <td class="banner__info-table-value">50 м</td>
           </tr>
           <tr>
-            <td>Дальность полета</td>
-            <td>Радиус поражения</td>
+            <td class="banner__info-table-description">Дальность полета</td>
+            <td class="banner__info-table-description">Радиус поражения</td>
           </tr>
         </table>
       </li>
@@ -109,13 +107,13 @@
           Мотивирующие фитнес-браслеты помогут
           найти в себе силы не пропускать занятия и соблюдать диету.
         </p>
-        <a class="banner__link" href="#">Подробнее</a>
+        <a class="banner__link button" href="#">Подробнее</a>
         <table class="banner__info-table">
           <tr>
-            <td>48 часов</td>
+            <td class="banner__info-table-value">48 часов</td>
           </tr>
           <tr>
-            <td>Без подзарядки</td>
+            <td class="banner__info-table-description">Без подзарядки</td>
           </tr>
         </table>
       </li>
@@ -135,17 +133,17 @@
           Самая длинная палка для селфи доступна в нашем магазине.
           Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.
         </p>
-        <a class="banner__link" href="#">Подробнее</a>
+        <a class="banner__link button" href="#">Подробнее</a>
         <table class="banner__info-table">
           <tr>
-            <td>8,5 м</td>
-            <td>5 кг</td>
-            <td>Карбон</td>
+            <td class="banner__info-table-value">8,5 м</td>
+            <td class="banner__info-table-value">5 кг</td>
+            <td class="banner__info-table-value">Карбон</td>
           </tr>
           <tr>
-            <td>Длинна палки</td>
-            <td>Вес палки</td>
-            <td>Материал</td>
+            <td class="banner__info-table-description">Длинна палки</td>
+            <td class="banner__info-table-description">Вес палки</td>
+            <td class="banner__info-table-description">Материал</td>
           </tr>
         </table>
       </li>
@@ -159,20 +157,20 @@
   <section class="catalog-block">
     <h2 class="visually-hidden">Каталог</h2>
     <ul>
-      <li>Виртуальная реальность</li>
-      <li>Моноподы для селфи</li>
-      <li>Экшн-камеры</li>
-      <li>Фитнес-браслеты</li>
-      <li>Умные часы</li>
-      <li>Квадрокоптеры</li>
+      <li class="catalog-block__item">Виртуальная реальность</li>
+      <li class="catalog-block__item">Моноподы для селфи</li>
+      <li class="catalog-block__item">Экшн-камеры</li>
+      <li class="catalog-block__item">Фитнес-браслеты</li>
+      <li class="catalog-block__item">Умные часы</li>
+      <li class="catalog-block__item">Квадрокоптеры</li>
     </ul>
   </section>
   <section class="services-block services" >
     <h2 class="visually-hidden">Сервисы интернет-магазина</h2>
     <ul class="services__buttons">
-      <li><button type="button">Доставка</button></li>
-      <li><button type="button">Гарантия</button></li>
-      <li><button type="button">Кредит</button></li>
+      <li><button class="button" type="button">Доставка</button></li>
+      <li><button class="button" type="button">Гарантия</button></li>
+      <li><button class="button" type="button">Кредит</button></li>
     </ul>
     <uL class="services__list">
       <li class="services__item">
@@ -215,7 +213,7 @@
         <li>СДИК</li>
         <li>ТоксБерри</li>
       </ul>
-      <a class="info-block__link" href="#">Подробнее о нас</a>
+      <a class="info-block__link button" href="#">Подробнее о нас</a>
     </section>
     <section class="info-block">
       <h2 class="info-block__title">Контакты</h2>
@@ -231,22 +229,22 @@
         пн—пт: с 10:00 до 22:00
         сб—вс: с 10:00 до 19:00
       </p>
-      <button class="info-block__button" type="button">Напишите нам</button>
+      <button class="info-block__button button" type="button">Напишите нам</button>
     </section>
   </div>
-  <section>
-    <h2>Подпишитесь на рассылку</h2>
-    <p>
+  <section class="action-block">
+    <h2 class="action-block__title">Подпишитесь на рассылку</h2>
+    <p class="action-block__description">
       Еженедельный дайджест с обзорами новинок,
       длительными тест-драйвами, распаковками,
       а также акции, спецпредложения и вот это вот всё.
     </p>
     <form>
       <label>
-        <input type="email" placeholder="Ваш e-mail">
+        <input class="action-block__input" type="email" placeholder="Ваш e-mail">
       </label>
-      <button type="submit">Подписаться</button>
-      <p>Это бесплатно</p>
+      <button class="action-block__button button" type="submit">Подписаться</button>
+      <p class="action-block__description">Это бесплатно</p>
     </form>
   </section>
 </main>

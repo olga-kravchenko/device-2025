@@ -1,0 +1,28 @@
+@import url("_variables.css");
+
+.info-block__title {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.info-block__description,
+.info-block__address {
+    font-size: 18px;
+    line-height: 1.3;
+    color: var(--dark);
+    font-style: normal;
+}
+
+.info-block__list {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.info-block__subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--dark);
+}
