@@ -1,5 +1,10 @@
 @import url("_variables.css");
 
+.action-block{
+    background-color: var(--light);
+}
+
+
 .action-block__title {
     font-size: 50px;
     font-weight: 800;

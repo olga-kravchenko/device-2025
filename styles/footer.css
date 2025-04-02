@@ -17,3 +17,8 @@
     line-height: 1.2;
     text-transform: uppercase;
 }
+
+.footer__social-media-item {
+    opacity: 0.3;
+    background-color: var(--white);
+}

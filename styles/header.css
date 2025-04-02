@@ -2,6 +2,7 @@
 
 .header {
     color: var(--black);
+    background-color: var(--yellow);
 }
 
 .search-block {

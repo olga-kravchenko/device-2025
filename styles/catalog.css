@@ -1,0 +1,55 @@
+@import url("_variables.css");
+
+.catalog-header__title {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.catalog-header__bread-crumbs {
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.filter-block {
+    background-color: var(--light);
+}
+
+.filter-block__filter {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.filter-block__input,
+.filter-block__input option {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.filter-block__pages {
+    background-color: var(--light);
+}
+
+.catalog__item-title {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}
+
+.catalog__item-price {
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--dark);
+}
+
+.catalog__button-number {
+    font-family: "Rubik", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--dark);
+}
